@@ -1,0 +1,90 @@
+/** Reference
+	Orange: #FE6307
+	Black: #3B3835
+	Back: #F1EEE7
+*/
+body {
+	border-top: 4px solid #FE6307;
+	background: #F1EEE7;
+}
+
+.well {
+	background-color: #3B3835;
+}
+
+.well h2{
+	color: #F1EEE7;
+}
+
+a:hover {
+	color: #08C;
+}
+
+.pager a
+{
+	border: 0px;
+	background-color: transparent;
+}
+
+.pager a:hover
+{
+	border: 0px;
+	background-color: transparent;
+	border-bottom: 1px solid #FE6307;
+}
+
+.bx-next:hover {
+	background-position: 0 0;
+}
+
+.bx-next {
+	position: absolute;
+	top: 40px;
+	right: -40px;
+	width: 31px;
+	height: 31px;
+	text-indent: -999999px;
+	background: url(../../image/icon_arrow_right.png) no-repeat 0 -31px;
+}
+
+.bx-prev:hover {
+	background-position: 0 0;
+}
+
+.bx-prev {
+	position: absolute;
+	top: 40px;
+	left: -35px;
+	width: 31px;
+	height: 31px;
+	text-indent: -999999px;
+	background: url(../../image/icon_arrow_left.png) no-repeat 0 -31px;
+}
+
+a.selected {
+	border-bottom: 2px solid #FE6307;
+}
+
+a.selected:hover {
+	border-bottom: 3px solid #FE6307;
+}
+
+.lyric-area{
+	color: #F1EEE7;
+	padding-right: 20px;
+	margin-left: 40px;
+	max-height: 450px;
+	overflow: auto;
+}
+
+.lyric-area img{
+	max-width: 10%;
+}
+
+.lyric-area a{
+	color: #F1EEE7;
+	padding: 0 5px;
+}
+
+
+
